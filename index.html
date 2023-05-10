@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/bootstrap.js/bootstrap.min.js" defer></script>
+    <script src="./js/main.js" type="module" defer></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <form action="" class="miFormulario">
+            <div class="row">
+                <div class="col-lg-4  col-sm-8  mt-5 reclutas-formulario">
+                    <div class="reclutas-tittle text-center">
+                        <h1>Reclutas</h1>
+                    </div>
+                    <!-- <div class="form-floating">
+                        <input type="number" class="form-control mt-3 recluta-id" id="floatingInput" placeholder="ID">
+                        <label for="floatingInput">ID</label>
+                    </div> -->
+                    <div class="form-floating mt-3">
+                        <input type="number" class="form-control recluta-dni" id="floatingInput"
+                            placeholder="Documento de identidad" name="documento">
+                        <label for="floatingInput">Documento de identidad</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="text" class="form-control mt-3 recluta-nombre" id="floatingInput"
+                            placeholder="Nombre" name="nombre">
+                        <label for="floatingInput">Nombre</label>
+                    </div>
+                    <div class="form-floating mt-3">
+                        <input type="number" class="form-control recluta-edad" id="floatingInput" placeholder="Edad" name="edad">
+                        <label for="floatingInput">Edad</label>
+                    </div>
+                    <div class="form-floating mt-3">
+                        <input type="number" class="form-control recluta-telefono" id="floatingInput"
+                            placeholder="Telefono" name="telefono">
+                        <label for="floatingInput">Telefono</label>
+                    </div>
+                    <div class="form-floating mt-3">
+                        <input type="email" class="form-control recluta-email" id="floatingInput" placeholder="Email" name="email">
+                        <label for="floatingInput">Email</label>
+                    </div>
+                    <div class="form-floating mt-3">
+                        <input type="text" class="form-control recluta-direccion" id="floatingInput"
+                            placeholder="Dirección" name="direccion">
+                        <label for="floatingInput">Dirección</label>
+                    </div>
+                    <div class="form-floating mt-3">
+                        <input type="date" class="form-control recluta-nacimiento" id="floatingInput"
+                            placeholder="Fecha de nacimiento" name="fechaNacimiento">
+                        <label for="floatingInput">Fecha de nacimiento</label>
+                    </div>
+                    <div class="form-floating mt-3">
+                        <input type="date" class="form-control recluta-ingreso" id="floatingInput"
+                            placeholder="Fecha de ingreso al programa" name="fechaIngreso">
+                        <label for="floatingInput">Fecha de ingreso al programa</label>
+                    </div>
+                    <div class="form-floating">
+                        <select class="form-select mt-3 id-team" id="floatingSelect"
+                            aria-label="Floating label select example" name="team">
+                            <option value=1>1</option>
+                            <option value=2>2</option>
+                            <option value=3>3</option>
+                        </select>
+                        <label for="floatingSelect">Seleccione el Team de el recluta</label>
+                    </div>
+                    <button type="submit" id="guardar-recluta" class="btn btn-dark mt-5">Guardar</button>
+                    <input type="hidden" name="id">
+                </div> <!-- Cierre de los datos de los reclutas -->
+
+
+
+
+            </div> <!--Cierre de la primer Row/Fila-->
+        </form>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12   col-sm-12 ">
+                    <table class="crud-table">
+                        <thead>
+                            <tr>
+                                <th>Documento de Identidad</th>
+                                <th>Nombre</th>
+                                <th>Edad</th>
+                                <th>Telefono</th>
+                                <th>Email</th>
+                                <th>Direccion</th>
+                                <th>Fecha de nacimiento</th>
+                                <th>Fecha de ingreso</th>
+                                <th>Team</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                    </article>
+                    </section>
+                    <template id="crud-template">
+                        <tr>
+                            <td class="documentoIdentidad"></td>
+                            <td class="nombre"></td>
+                            <td class="edad"></td>
+                            <td class="telefono"></td>
+                            <td class="email"></td>
+                            <td class="direccion"></td>
+                            <td class="fechaNacimiento"></td>
+                            <td class="fechaIngreso"></td>
+                            <td class="team"></td>
+                        </tr>
+                    </template>
+                </div>
+            </div>
+        </div>
+    </div> <!-- Cierre del div container-->
+</body>
+
+</html>
+

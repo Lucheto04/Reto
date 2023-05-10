@@ -1,0 +1,139 @@
+{
+  "reclutas": [
+    {
+      "id": 1,
+      "nombre": "Luis Rueda",
+      "edad": 19,
+      "telefono": 3243602572,
+      "email": "lucho.lgrg04@gmail.com",
+      "direccion": "Calle xx #xx-xx",
+      "fechaNacimiento": "03/02/2004",
+      "documento": "1015392574",
+      "fechaIngreso": "23/01/2023",
+      "teamsID": 1
+    },
+    {
+      "id": 1,
+      "nombre": "Emanuel Rueda",
+      "edad": 12,
+      "telefono": 6666666666,
+      "email": "emanuel.lgrgxx@gmail.com",
+      "direccion": "Calle xx #xx-xx",
+      "fechaNacimiento": "07/05/2001",
+      "documento": "1007005549",
+      "fechaIngreso": "23/01/2023",
+      "teamsID": 3
+    },
+    {
+      "documento": "999999999",
+      "nombre": "Julian Lopez",
+      "edad": "25",
+      "telefono": "123456789",
+      "email": "juliancito@outlook.com",
+      "direccion": "Avenida xx #xx-xx",
+      "fechaNacimiento": "2000-06-06",
+      "fechaIngreso": "2023-01-23",
+      "teamsID": "2",
+      "id": 2
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "nombre": "Sputnik",
+      "trainer": "Carlos"
+    },
+    {
+      "id": 2,
+      "nombre": "Artemis",
+      "trainer": "Miguel"
+    },
+    {
+      "id": 3,
+      "nombre": "Apolo",
+      "trainer": "Johlver"
+    }
+  ],
+  "skill": [
+    {
+      "id": 1,
+      "nombre": "Ingles"
+    },
+    {
+      "id": 2,
+      "nombre": "Ser"
+    },
+    {
+      "id": 3,
+      "nombre": "Review"
+    },
+    {
+      "id": 4,
+      "nombre": "Programming"
+    }
+  ],
+  "modulos_skill": [
+    {
+      "id": 1,
+      "nombre": "Ingles basico",
+      "skillId": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Ingles intermedio",
+      "skillId": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Ingles avanzado",
+      "skillId": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Ser basico",
+      "skillId": 2
+    },
+    {
+      "id": 5,
+      "nombre": "Ser intermedio",
+      "skillId": 2
+    },
+    {
+      "id": 6,
+      "nombre": "Ser avanzado",
+      "skillId": 2
+    },
+    {
+      "id": 7,
+      "nombre": "Review mañana",
+      "skillId": 3
+    },
+    {
+      "id": 8,
+      "nombre": "Review noche",
+      "skillId": 3
+    },
+    {
+      "id": 9,
+      "nombre": "Programming front-end",
+      "skillId": 4
+    },
+    {
+      "id": 10,
+      "nombre": "Programming back-end",
+      "skillId": 4
+    },
+    {
+      "id": 11,
+      "nombre": "Programming full-stack",
+      "skillId": 4
+    }
+  ],
+  "evaluacion": [
+    {
+      "reclutasId": 1,
+      "modulosID": 3,
+      "nota": 6
+    }
+  ]
+}
